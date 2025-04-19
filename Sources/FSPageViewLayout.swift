@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FSPagerViewLayout: UICollectionViewLayout {
+open class FSPagerViewLayout: UICollectionViewLayout {
     
     internal var contentSize: CGSize = .zero
     internal var leadingSpacing: CGFloat = 0
